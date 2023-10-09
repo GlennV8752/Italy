@@ -1,6 +1,3 @@
-// Open the default tab when the page loads
-document.getElementById('Tab1').classList.add('active');
-
 // Function to open tabs
 function openTab(tabName) {
     var tabcontent = document.getElementsByClassName('tabcontent');

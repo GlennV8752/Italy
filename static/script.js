@@ -13,7 +13,7 @@ function validatePassword() {
     var expectedPassword = "seujven"; // Replace with your desired password
 
     if (enteredPassword === expectedPassword) {
-        window.location.href = "../protected.html"; // Redirect to protected content
+        window.location.href = "protected.html"; // Redirect to protected content
     } else {
         document.getElementById("error-message").innerText = "Incorrect password. Please try again.";
     }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <link rel="stylesheet" type="text/css" href="../static/styles.css">
+</head>
+<body>
+    <div class="tabs">
+        <button class="tablinks" onclick="openTab('Tab1')">Tab 1</button>
+        <button class="tablinks" onclick="openTab('Tab2')">Tab 2</button>
+        <button class="tablinks" onclick="openTab('Tab3')">Tab 3</button>
+    </div>
+
+    <div id="Tab1" class="tabcontent">
+        <h2>Tab 1 Content</h2>
+        <p>This is the content for Tab 1.</p>
+        <img src="{{ url_for('static', filename='image.png') }}" alt="Image">
+    </div>
+
+    <div id="Tab2" class="tabcontent">
+        <h2>Tab 2 Content</h2>
+        <p>This is the content for Tab 2.</p>
+        <p>x.</p>
+        <p>x.</p>
+        <p>x.</p>
+        <p>x.</p>
+        <p>x.</p>
+        <p>x.</p>
+        <p>x.</p>
+        <p>x.</p>
+
+    </div>
+
+    <div id="Tab3" class="tabcontent">
+        <h2>Tab 3 Content</h2>
+        <p>This is the content for Tab 3.</p>
+    </div>
+
+    <script src="../static/script.js"></script>
+</body>
+</html>
+

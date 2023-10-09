@@ -1,0 +1,19 @@
+/* Style the tabs */
+.tablinks {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-right: 5px;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+}
+
+/* Style the active tab */
+.tabcontent.active {
+    display: block;
+}
